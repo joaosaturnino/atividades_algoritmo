@@ -1,4 +1,6 @@
 Algoritmo "desafio"
+//  
+//  
 //matriz 5x5 calcular soma da diagonal principal
 
 Var
@@ -9,7 +11,7 @@ Var
 Inicio
    para i de 1 ate 5 faca
       para j de 1 ate 5 faca
-        escreva("Digite um nÃºmero para a posiÃ§Ã£o [", i,",", j,"]:")
+        escreva("Digite um número para a posição [", i , " , " , j , " ]:")
         leia(numeros[i,j])
       fimpara
    fimpara
@@ -29,6 +31,6 @@ Inicio
    fimpara
    fimpara
    
-   escreval("A soma da diagonal principal Ã© ", soma)
+   escreval("A soma da diagonal principal é ", soma)
 
 Fimalgoritmo
